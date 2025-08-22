@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio Développeur</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo">Bouillon Arnaud</a>
+          <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Développeur Web & Applications</h1>
+          <p>
+            Je suis passionné par le développement web et je créer des solutions
+            efficaces.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn">Voir mes projets</a>
+            <a href="#contact" class="btn btn-outline">Me contacter</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div style="font-size: 10rem; color: #8a221a">
+            <i class="fas fa-code"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section
+      class="section"
+      id="about"
+      style="background: linear-gradient(135deg, #fff0f0 0%, #ffe6e6 100%)"
+    >
+      <div class="container">
+        <h2 class="section-title">À <span>propos</span> de moi</h2>
+        <div class="about-grid">
+          <div class="about-content">
+            <h3>Passionné par le développement et l'innovation</h3>
+            <p>
+              Je suis étudiant dans le domaine du développement fullstack en
+              dernière année à la HelHA de Mons. Je maîtrise les technologies
+              modernes comme React, Node.js, et React Native. Je suis également
+              capable de créer des applications de bureau à l'aide de
+              technologies comme C# ou encore Java.
+            </p>
+            <p>
+              Mon objectif est de créer des solutions élégantes et efficaces qui
+              répondent parfaitement aux besoins des utilisateurs.
+            </p>
+            <div class="skills">
+              <span class="skill">HTML/CSS</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">React</span>
+              <span class="skill">Node.js</span>
+              <span class="skill">React Native</span>
+              <span class="skill">Java</span>
+              <span class="skill">Git</span>
+              <span class="skill">Python</span>
+              <span class="skill">PHP</span>
+            </div>
+            <a href="#" class="btn" style="margin-top: 30px"
+              >Télécharger mon CV</a
+            >
+          </div>
+          <div class="about-image">
+            <img
+              src="img/profile_picture.jpg"
+              alt="Bouillon Arnaud - Développeur"
+              class="profile-image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section
+      class="section"
+      id="projects"
+      style="background: linear-gradient(135deg, #fff0f0 0%, #ffe6e6 100%)"
+    >
+      <div class="container">
+        <h2 class="section-title">Mes <span>projets</span></h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/Capture d'écran 2025-08-22 161311.png" alt="" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">MyPlan</h3>
+              <p>Application de gestion de son budget personnel.</p>
+              <div class="project-tech">
+                <span class="tech">C#</span>
+                <span class="tech">.NET</span>
+                <span class="tech">SQLite</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Hulkgreen-web/My-Plan"
+                  ><i class="fab fa-github"></i> Code Source</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/Capture d'écran 2025-08-22 161817.png" alt="" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">GameVault</h3>
+              <p>Plateforme de gestion de collection de jeux-vidéos.</p>
+              <div class="project-tech">
+                <span class="tech">HTML/CSS</span>
+                <span class="tech">Jquery</span>
+                <span class="tech">PHP</span>
+                <span class="tech">MySQL</span>
+              </div>
+              <div class="project-links">
+                <a href="https://gamevault.ovh/index.html"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#"><i class="fab fa-github"></i> Code Source</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="project-img">
+              <img src="img/Cyberparty.png" alt="" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Cyberparty</h3>
+              <p>Jeu de plateau inspiré du jeu "Tu te mets combiens ?".</p>
+              <div class="project-tech">
+                <span class="tech">Java</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/BouillonArnaud/ProjetJFX"
+                  ><i class="fab fa-github"></i> Code Source</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Me <span>contacter</span></h2>
+        <div class="contact-grid">
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Nom</label>
+              <input type="text" id="name" placeholder="Votre nom" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Votre email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn">Envoyer le message</button>
+          </form>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h3>Email</h3>
+                <p>abouillon1802@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h3>Téléphone</h3>
+                <p>+32 472 93 65 18</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h3>Localisation</h3>
+                <p>Mons, Belgique</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="logo">Portfolio</div>
+        <div class="social-links">
+          <a
+            href="https://github.com/Hulkgreen-web?tab=overview&from=2025-08-01&to=2025-08-22"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/arnaud-bouillon-91419435b"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+      </div>
+    </footer>
+  </body>
+</html>
